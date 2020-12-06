@@ -1,0 +1,65 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "name": "spring.tuling.redis",
+      "type": "com.tuling.autoconfig.TulingRedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "name": "spring.tuling.redis.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "defaultValue": 20,
+      "name": "spring.tuling.redis.max-idel",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "defaultValue": 50,
+      "name": "spring.tuling.redis.max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "defaultValue": 5,
+      "name": "spring.tuling.redis.min-idel",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "name": "spring.tuling.redis.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "name": "spring.tuling.redis.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "defaultValue": true,
+      "name": "spring.tuling.redis.test-on-borrow",
+      "description": "从连接池中借出的jedis都会经过测试",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "defaultValue": false,
+      "name": "spring.tuling.redis.test-on-retrun",
+      "description": "返回jedis到池中Jedis 实例都会经过测试",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.tuling.autoconfig.TulingRedisProperties",
+      "defaultValue": 2000,
+      "name": "spring.tuling.redis.time-out",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
